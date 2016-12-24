@@ -1,2 +1,2 @@
 # OutBrainClickPrediction
-Ad Click Prediction
+Ad Click Prediction test data from Kaggle
