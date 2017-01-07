@@ -5,7 +5,7 @@ Since I am using a sample of the data using cookies, I break the wget in between
 (to understand what this command is doing, check this: http://bit.ly/2hLNHHK  )
 
 - Instead of using unzip, which might not work, use `jar xvf page_views.csv.zip` (I'm on OSX) to extract the partially downloaded csv. Check [this](http://askubuntu.com/questions/54904/unzip-error-end-of-central-directory-signature-not-found) post. 
-- Remove the last incomplete line with `sed -i '' -e '$ d' page_views.csv`
+- Run `sed -i '' -e '$ d' page_views.csv` to remove the last incomplete line
 
 - Upload to s3 
 
